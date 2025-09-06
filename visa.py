@@ -4,7 +4,7 @@ import re
 import tkinter as tk
 from tkinter import filedialog
 from tkinter import messagebox
-
+#log
 def categorize_rubro(detail):
     detail = detail.upper()
     if any(word in detail for word in ["OPESSA", "YPF", "LUBRICENTRO", "SHELL"]):
